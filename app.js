@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
     
     //basic response with the send method
      res.send('<h1>This is the home route</h1>');
+     res.end();
  });
 
  ///served the second route
@@ -21,5 +22,6 @@ app.get('/', (req, res) => {
      
     //basic response with the send method
      res.send('<h1>This is the second route</h1>');
+     res.end();
  });
  
