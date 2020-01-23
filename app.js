@@ -4,7 +4,10 @@ const express = require('express');
 const app = express();
 
 //set up the development server listen method - port number
-app.listen();
+app.listen(3000, function(){
+    console.log("server currently running on Heroku")
+
+});
 
 ///served the home route
 app.get('/', (req, res) => {
@@ -20,4 +23,3 @@ app.get('/', (req, res) => {
      res.send('<h1>This is the second route</h1>');
  });
  
- console.log("server currently running on localhost:3000")
