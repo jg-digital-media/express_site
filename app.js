@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 //set up the development server listen method - port number
-app.listen(3000);
+app.listen();
 
 ///served the home route
 app.get('/', (req, res) => {
@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
  });
 
  ///served the second route
- app.get('/hello', (req, res) => {
+ app.get('/second', (req, res) => {
      
     //basic response with the send method
      res.send('<h1>This is the second route</h1>');
