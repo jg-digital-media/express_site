@@ -10,14 +10,14 @@ app.listen(3000);
 app.get('/', (req, res) => {
     
     //basic response with the send method
-     res.send('<h1>I love Treehouse</h1>');
+     res.send('<h1>This is the home route</h1>');
  });
 
  ///served the second route
  app.get('/hello', (req, res) => {
      
     //basic response with the send method
-     res.send('<h1>Hello JavaScript developer!</h1>');
+     res.send('<h1>This is the second route</h1>');
  });
  
  console.log("server currently running on localhost:3000")
