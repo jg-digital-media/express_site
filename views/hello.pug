@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content
+    h1 This is the "Hello" Route   
+
+    section#content 
+        <!-- check if name has been submitted -->
+        form(action="/hello", method='post')
+            label Please enter your name:
+                input(type='text', name='username')
+            button(type='submit') Submit
