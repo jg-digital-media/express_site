@@ -1,5 +1,7 @@
 const express = require('express');
 
+var server_port = process.env.PORT || 3000;
+
 //import body-parser middleware
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
@@ -55,7 +57,7 @@ app.use((err, req, res, next) => {
  });
 
 //Set up the development server listen method - port number
-app.listen(3000, () => {
+app.listen(server_port, () => {
     console.log("server currently running on Heroku");
 
 });
