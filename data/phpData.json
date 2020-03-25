@@ -3,30 +3,39 @@
         "title": "PHP",
         "cards": [
             {
-                "question": "PHP QUESTION 1",
-                "hint": "PHP Hint 1",
-                "answer": "PHP Answer 1"
+                "question": "What does PHP Stand for?",
+                "hint": "The first acronym is itself an acronym",
+                "answer": "PHP Hypertext Processer"
             },
             {
-                "question": "PHP QUESTION 2",
-                "hint": "PHP Hint 2",
-                "answer": "PHP Answer 2"
+                "question": "What is the latest PHP Version?",
+                "hint": "Seventh Generation",
+                "answer": "PHP 7"
             },
             {
-                "question": "PHP QUESTION 3",
-                "hint": "PHP Hint 3",
-                "answer": "PHP Answer 3"
+                "question": "Which method is used to help us send emails with PHP",
+                "hint": "by the mail method",
+                "answer": "mail()"
             },
             {
-                "question": "PHP QUESTION 4",
-                "hint": "PHP Hint 4",
-                "answer": "PHP Answer 4"
+                "question": "php scripts are surrounded by which delimeters?",
+                "hint": "use an open bracket and a question mark for the correct syntax",
+                "answer": "<?php //code ?>"
             },
             {
-                "question": "PHP QUESTION 5",
-                "hint": "PHP Hint 5",
-                "answer": "PHP Answer 5"
+                "question": "How would you display a small message to the browser in PHP?",
+                "hint": "do you hear an echo>",
+                "answer": "echo \"message\";"         
+            },
+            {
+                "question": "How do you get information from a form that is submitted using the \"get\" method?",
+                "hint": "using what's called a query string",
+                "answer": "url?get_variable_name"         
             }
+
+            
+
+
         ]
     }
 }

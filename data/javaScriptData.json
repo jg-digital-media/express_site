@@ -3,29 +3,29 @@
         "title": "JavaScript",
         "cards": [
             {
-                "question": "JavaScript Question 1",
-                "hint": "JavaScript Hint 1",
-                "answer": "JavaScript Answer 1"
+                "question": "I'm thinking of a method that removes the last element from a given array.",
+                "hint": "Snap, Cackle and....?",
+                "answer": "pop()"
             },
             {
-                "question": "JavaScript Question 2",
-                "hint": "JavaScript Hint 2",
-                "answer": "JavaScript Answer 2"
+                "question": "Name the JavaAcript keyword that declares a variable with a value that cannot be changed.",
+                "hint": "a constant variable is being declared",
+                "answer": "const"
             },
             {
-                "question": "JavaScript Question 3",
-                "hint": "JavaScript Hint 3",
-                "answer": "JavaScript Answer 3"
+                "question": "What is the method that takes a string and returns a capitalized version.",
+                "hint": "it's about transforming a string To All UpperCase.",
+                "answer": "toUpperCase();"
             },
             {
-                "question": "JavaScript Question 4",
-                "hint": "JavaScript Hint 4",
-                "answer": "JavaScript Answer 4"
+                "question": "What is a Callback function?",
+                "hint": "One argument after the other",
+                "answer": "A callback is a plain JavaScript function passed to some method as an argument or option."
             },
             {
-                "question": "JavaScript Question 5",
-                "hint": "JavaScript Hint 5",
-                "answer": "JavaScript Answer 5"
+                "question": "the ____  object that adds and/or removes elements from an array",
+                "hint": "splice all elements of the array",
+                "answer": "splice()"
             }
         ]
     }

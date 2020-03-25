@@ -3,30 +3,36 @@
         "title": "Python",
         "cards": [
             {
-                "question": "Python 1",
-                "hint": "Python Hint 1",
-                "answer": "Python Answer 1"
+                "question": "method to output text",
+                "hint": "Time for some printing",
+                "answer": "print(\"hello world\");"
             },
             {
-                "question": "Python 2",
-                "hint": "Python Hint 2",
-                "answer": "Python Answer 2"
+                "question": "comments in python code",
+                "hint": "slash star and star slash",
+                "answer": "/**/"
             },
             {
-                "question": "Python 3",
-                "hint": "Python Hint 3",
-                "answer": "Python Answer 3"
+                "question": "Tell me file extension for a Python file.",
+                "hint": "Rhymes with Pie",
+                "answer": "filename.py"
             },
             {
-                "question": "Python4",
-                "hint": "Python Hint 4",
-                "answer": "PHP Answer 4"
+                "question": "Guess the function syntax in Python programming",
+                "hint": "function *definition*",
+                "answer": "def function_name():"
             },
             {
-                "question": "Python5",
-                "hint": "Python Hint 5",
-                "answer": "Python Answer 5"
+                "question": "What is the operator used to compare 2 values",
+                "hint": "The difference between assignment and comparison is crucial",
+                "answer": "== is the comparison operator"
+            },
+            {
+                "question": "Show and identify the correct List Syntax",
+                "hint": "List are to Python as Arrays are to JavaScript",
+                "answer": "[] list syntax"
             }
+                        
         ]
     }
 }

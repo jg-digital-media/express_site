@@ -4,8 +4,8 @@
         "cards": [
             {
                 "question": "Sass 1",
-                "hint": "Sass Hint 1",
-                "answer": "PHP Answer 1"
+                "hint": "They make your CSS Awesome",
+                "answer": "Syntactically Awesome Stylesheets"
             },
             {
                 "question": "Sass 2",
