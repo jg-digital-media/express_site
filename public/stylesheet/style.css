@@ -1,3 +1,33 @@
+.begin-btn {
+  background: #fda4a4;
+  text-align: center;
+  display: block;
+  width: 300px;
+  margin: 13px auto;
+  padding: 5px;
+  box-shadow: 0px 0px 5px 1px #ffffff;
+  background: #fda4a4;
+  text-align: center;
+  display: block;
+  width: 159px;
+  margin: 13px auto;
+  padding: 5px;
+  box-shadow: 0px 4px 4px -3px #382d2d;
+  border: solid #dd6666 1px;
+  border-radius: 6px; }
+
+#content button,
+.submit {
+  padding: 8px 10px;
+  font-size: .8em;
+  margin: auto;
+  margin: 5px;
+  color: #C79735;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-color: #F5F3ED;
+  border: 1px solid #C79735;
+  cursor: pointer; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -11,7 +41,7 @@ header {
   padding-top: 20px;
   padding-bottom: 5px;
   text-align: center;
-  color: #D64226;
+  color: #d64226;
   background: #f3bd7c;
   font-size: 14px;
   border-bottom: 2px #e39696 solid; }
@@ -29,24 +59,9 @@ header img {
 .nav li {
   display: inline-block;
   margin-left: 10px; }
-
-.begin_btn {
-  background: #fda4a4;
-  text-align: center;
-  display: block;
-  width: 300px;
-  margin: 13px auto;
-  padding: 5px;
-  box-shadow: 0px 0px 5px 1px #ffffff;
-  background: #fda4a4;
-  text-align: center;
-  display: block;
-  width: 159px;
-  margin: 13px auto;
-  padding: 5px;
-  box-shadow: 0px 4px 4px -3px #382d2d;
-  border: solid #dd6666 1px;
-  border-radius: 6px; }
+  .nav li a {
+    color: red;
+    color: #551a8b; }
 
 /* Flash Card Styles */
 .card {
@@ -130,18 +145,6 @@ input {
   padding: 5% 5%;
   padding: 2% 35%; }
 
-#content button,
-.submit {
-  padding: 8px 10px;
-  font-size: .8em;
-  margin: auto;
-  margin: 5px;
-  color: #C79735;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  background-color: #F5F3ED;
-  border: 1px solid #C79735;
-  cursor: pointer; }
-
 #content button {
   display: block; }
 
@@ -167,7 +170,7 @@ footer p {
   text-align: center; }
 
 /*404 page styling*/
-/*responsive*/
+/*Responsive*/
 @media screen and (max-width: 680px) {
   .nav {
     text-align: center; }

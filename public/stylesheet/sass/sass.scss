@@ -1,3 +1,7 @@
+@import "_colours.scss";
+@import "_font.scss";
+@import "_utilities.scss";
+
 * {
     padding: 0;
     margin: 0;
@@ -5,19 +9,18 @@
 
 body {
   position: relative;
-  background-color: #EDEAD9;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-color: $body-bg;
+  font-family: $main-font;
 }
 
 header {
   padding-top: 20px;
   padding-bottom: 5px;
   text-align: center;
-  color: #D64226;
+  color: $header-bg;
   background: #f3bd7c;
   font-size: 14px;
   border-bottom: 2px #e39696 solid;
-
 }
 
 header img {
@@ -35,32 +38,21 @@ header img {
 .nav li {
     display: inline-block;
     margin-left: 10px;
+    a {
+        color: red;
+        color: #551a8b;
+    }
 }
 
-.begin_btn {
-    background: #fda4a4;
-    text-align: center;
-    display: block;
-    width: 300px;
-    margin: 13px auto;
-    padding: 5px;
-    box-shadow: 0px 0px 5px 1px #ffffff;background: #fda4a4;
-    text-align: center;
-    display: block;
-    width: 159px;
-    margin: 13px auto;
-    padding: 5px;
-    box-shadow: 0px 4px 4px -3px #382d2d;
-    border: solid #dd6666 1px;
-    border-radius: 6px;
+.begin-btn {
+    @extend %begin-btn;
 }
-
 
 /* Flash Card Styles */
 .card {
     display: block;
     width: 70%;
-    background: #fda4a4;
+    background: $card-box-bg;
     border-radius: 20px;
 }
 
@@ -94,7 +86,7 @@ input {
   border: 0;
   border-radius: 5px;
   outline: none;
-  color: #34393D;
+  color: $input-color;
   margin: 10px 20px;
 }
 
@@ -124,7 +116,7 @@ input {
 }
 
 .card-header {
-  background-color: #727C85;
+  background-color: $card-bg;
   height: 100px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -139,10 +131,10 @@ input {
   text-align: center;
   border-top: 2px solid #F5F3ED;
   border-bottom: 2px solid rgba(0,0,0,.05);
-  color: #727C85;
+  color: $card-color;
   padding: 10px;
   letter-spacing: 5px;
-  background-color: #F5F3ED;
+  background-color: $card-title-bg;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
@@ -155,15 +147,7 @@ input {
 
 #content button,
 .submit {
-  padding: 8px 10px;
-  font-size: .8em;
-  margin: auto;
-  margin: 5px;
-  color: #C79735;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  background-color: #F5F3ED;
-  border: 1px solid #C79735;
-  cursor: pointer
+    @extend %submit-btn;
 }
 
 #content button {
@@ -203,7 +187,7 @@ footer p {
 
 /*404 page styling*/
 
-/*responsive*/
+/*Responsive*/
 @media screen and (max-width: 680px) {
     .nav {
         text-align: center;

@@ -1,0 +1,31 @@
+%begin-btn {
+    background: #fda4a4;
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin: 13px auto;
+    padding: 5px;
+    box-shadow: 0px 0px 5px 1px #ffffff;
+    background: #fda4a4;
+    text-align: center;
+    display: block;
+    width: 159px;
+    margin: 13px auto;
+    padding: 5px;
+    box-shadow: 0px 4px 4px -3px #382d2d;
+    border: solid #dd6666 1px;
+    border-radius: 6px;
+}
+
+//submit button
+%submit-btn {
+    padding: 8px 10px;
+    font-size: .8em;
+    margin: auto;
+    margin: 5px;
+    color: #C79735;
+    font-family: $main-font;
+    background-color: #F5F3ED;
+    border: 1px solid #C79735;
+    cursor: pointer
+}
