@@ -1,3 +1,4 @@
+//card button styles
 %begin-btn {
     background: #fda4a4;
     text-align: center;
@@ -28,4 +29,8 @@
     background-color: #F5F3ED;
     border: 1px solid #C79735;
     cursor: pointer
+}
+
+%open-maincards-btn {   
+    border-bottom: black solid 1px;
 }
