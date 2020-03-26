@@ -28,9 +28,20 @@
     font-family: $main-font;
     background-color: #F5F3ED;
     border: 1px solid #C79735;
-    cursor: pointer
+    cursor: pointer;
 }
 
 %open-maincards-btn {   
     border-bottom: black solid 1px;
+    border-radius: 5px;
+    background: yellow;
+
+    text-align: center;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    height: 37px;
+    border: solid red 1px;
+    padding-top: 6px;
+    background: #fda4a4;
 }

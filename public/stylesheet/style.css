@@ -29,7 +29,17 @@
   cursor: pointer; }
 
 .open-main-cards {
-  border-bottom: black solid 1px; }
+  border-bottom: black solid 1px;
+  border-radius: 5px;
+  background: yellow;
+  text-align: center;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  height: 37px;
+  border: solid red 1px;
+  padding-top: 6px;
+  background: #fda4a4; }
 
 .card-title {
   text-align: center;
@@ -89,7 +99,8 @@ header img {
   margin-left: 10px; }
   .nav li a {
     color: red;
-    color: #551a8b; }
+    color: #551a8b;
+    text-decoration: none; }
 
 /* Flash Card Styles */
 .card {
@@ -108,9 +119,6 @@ h2 {
 
 h2.card-title {
   text-align: center; }
-
-a {
-  text-decoration: none; }
 
 button {
   outline: none; }
@@ -144,17 +152,17 @@ input {
 .switch_side:hover {
   font-weight: bold; }
 
-.open-main-cards {
-  text-align: center; }
+.open-main-cards a {
+  text-decoration: none; }
 
 #content {
-  padding: 5% 5%;
   padding: 2% 35%; }
 
 #content button {
   display: block; }
 
-#content button:hover {
+#content button:hover,
+.submit:hover {
   cursor: pointer;
   background-color: #C79735;
   color: #fff; }
@@ -163,6 +171,8 @@ input {
   display: block;
   margin: 0 auto;
   width: 320px; }
+  #content .more-cards p > span {
+    font-weight: bold; }
   #content .more-cards ul {
     list-style: none;
     background: wheat; }
@@ -170,6 +180,11 @@ input {
       margin: 10px 0; }
       #content .more-cards ul li a:hover {
         color: red; }
+      #content .more-cards ul li a {
+        color: #551a8b;
+        text-decoration: none; }
+        #content .more-cards ul li a:hover {
+          color: black; }
 
 /*footer*/
 footer p {

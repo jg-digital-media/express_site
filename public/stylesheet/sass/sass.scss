@@ -41,6 +41,7 @@ header img {
     a {
         color: red;
         color: #551a8b;
+        text-decoration: none;
     }
 }
 
@@ -70,9 +71,6 @@ h2.card-title {
     text-align: center;
 }
 
-a {
-  text-decoration: none;
-}
 
 button {
   outline: none;
@@ -121,16 +119,18 @@ input {
     @extend %card-title;
 }
 
-.open-main-cards {
-    text-align: center;   
-    width: 200px;
-    margin: 0 auto;
+.open-main-cards {    
+    
+
+    a {
+        text-decoration: none;
+    }
 
     @extend %open-maincards-btn;
 }
 
+//signin - signout buttons
 #content {
-    padding: 5% 5%;
     padding: 2% 35%;
 }
 
@@ -143,7 +143,8 @@ input {
   display: block;
 }
 
-#content button:hover {
+#content button:hover, 
+.submit:hover {
   cursor: pointer;
   background-color: #C79735;
   color: #fff;
@@ -154,6 +155,10 @@ input {
     margin: 0 auto;
     width: 320px;
 
+    p > span {
+        font-weight: bold;
+    }
+
     ul {
         list-style: none;
         background: wheat;
@@ -163,6 +168,14 @@ input {
 
             a:hover {
                 color: red;
+            }
+
+            a {
+                color: #551a8b;
+                text-decoration: none;
+                &:hover { 
+                    color: black;
+                }
             }
         }
     }
