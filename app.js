@@ -39,6 +39,7 @@ app.use('/python', pythonRouter);
 
 //Create static server for front end assets
 app.use( '/static', express.static( 'public' ) );
+app.use( '/', express.static( 'public' ) );
 
 /*MIDDLEWARE*/
 
