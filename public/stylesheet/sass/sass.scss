@@ -132,15 +132,26 @@ input {
 //signin - signout buttons
 #content {
     padding: 2% 35%;
+
+    p {
+    
+        color: black;
+        span {
+            font-weight: bold;
+            color: #af1717;
+        }
+    }
 }
+
+
+#content button {
+    display: block;
+}
+  
 
 #content button,
 .submit {
     @extend %submit-btn;
-}
-
-#content button {
-  display: block;
 }
 
 #content button:hover, 
@@ -155,8 +166,13 @@ input {
     margin: 0 auto;
     width: 320px;
 
-    p > span {
-        font-weight: bold;
+    p {
+    
+        color: black;
+        span {
+            font-weight: bold;
+            color: #af1717;
+        }
     }
 
     ul {

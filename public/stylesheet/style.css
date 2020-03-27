@@ -157,6 +157,11 @@ input {
 
 #content {
   padding: 2% 35%; }
+  #content p {
+    color: black; }
+    #content p span {
+      font-weight: bold;
+      color: red; }
 
 #content button {
   display: block; }
@@ -171,8 +176,11 @@ input {
   display: block;
   margin: 0 auto;
   width: 320px; }
-  #content .more-cards p > span {
-    font-weight: bold; }
+  #content .more-cards p {
+    color: black; }
+    #content .more-cards p span {
+      font-weight: bold;
+      color: red; }
   #content .more-cards ul {
     list-style: none;
     background: wheat; }
