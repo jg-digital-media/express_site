@@ -3,30 +3,31 @@
         "title": "Ruby",
         "cards": [
             {
-                "question": "Ruby 1",
-                "hint": "Ruby Hint 1",
-                "answer": "Ruby Answer 1"
+                "question": "Ruby was designed and developed by who and in what year?",
+                "hint": "Born in Japan",
+                "answer": "Yukihiro Matsumoto in 1993"
             },
             {
-                "question": "Ruby 2",
-                "hint": "Ruby Hint 2",
-                "answer": "Ruby Answer 2"
+                "question": "What is $LOAD_PATH  used for in Ruby?",
+                "hint": "track the path to current place in file system",
+                "answer": "Make Ruby aware that included files must be searched in the current directory/"
             },
             {
-                "question": "Ruby 3",
-                "hint": "Ruby Hint 3",
-                "answer": "Ruby Answer 3"
+                "question": "Name a feature not found in Object Oriented Ruby",
+                "hint": "Morph....",
+                "answer": "Morphism"
             },
             {
-                "question": "Ruby 4",
-                "hint": "Ruby Hint 4",
-                "answer": "RubyAnswer 4"
+                "question": "What is know as the \"blueprint\" by which a Ruby class is created",
+                "hint": "think School",
+                "answer": "Known as a \"class\""
             },
             {
-                "question": "Ruby5",
-                "hint": "Ruby Hint 5",
-                "answer": "RubyAnswer 5"
+                "question": "By which term are variabled defined in a Ruby method known?",
+                "hint": "they are local to that particular method and can't be accessed anywhere else",
+                "answer": "They are called *local* variables"
             }
         ]
     }
 }
+
