@@ -29,17 +29,26 @@
   cursor: pointer; }
 
 .open-main-cards {
-  border-bottom: black solid 1px;
+  /* border-bottom: black solid 1px; */
   border-radius: 5px;
   background: yellow;
   text-align: center;
   width: 300px;
   display: block;
   margin: 0 auto;
-  height: 37px;
-  border: solid red 1px;
-  padding-top: 6px;
-  background: #fda4a4; }
+  height: 39px;
+  /* border: solid red 1px; */
+  padding-top: 12px;
+  background: #fda4a4;
+  box-shadow: #5a5a5a 0px 6px 5px;
+  transition: all .1s; }
+  .open-main-cards:hover {
+    transform: scale(1.1);
+    color: black; }
+  .open-main-cards a {
+    color: #5518ab; }
+    .open-main-cards a:hover {
+      color: black; }
 
 .card-title {
   text-align: center;
@@ -161,7 +170,7 @@ input {
     color: black; }
     #content p span {
       font-weight: bold;
-      color: red; }
+      color: #af1717; }
 
 #content button {
   display: block; }
@@ -180,7 +189,7 @@ input {
     color: black; }
     #content .more-cards p span {
       font-weight: bold;
-      color: red; }
+      color: #af1717; }
   #content .more-cards ul {
     list-style: none;
     background: wheat; }

@@ -31,17 +31,32 @@
     cursor: pointer;
 }
 
+//open cards button
 %open-maincards-btn {   
-    border-bottom: black solid 1px;
+    /* border-bottom: black solid 1px; */
     border-radius: 5px;
     background: yellow;
-
     text-align: center;
     width: 300px;
     display: block;
     margin: 0 auto;
-    height: 37px;
-    border: solid red 1px;
-    padding-top: 6px;
+    height: 39px;
+    /* border: solid red 1px; */
+    padding-top: 12px;
     background: #fda4a4;
+    box-shadow: #5a5a5a 0px 6px 5px;
+    transition: all .1s;
+
+    &:hover {
+        transform: scale(1.1);
+        color: black;
+    }
+
+    a {
+        color: #5518ab;
+        
+        &:hover {
+            color: black;
+        }
+    }
 }
