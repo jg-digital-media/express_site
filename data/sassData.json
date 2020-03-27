@@ -3,29 +3,29 @@
         "title": "Sass",
         "cards": [
             {
-                "question": "Sass 1",
+                "question": "What is the meaning of the acronym SASS?",
                 "hint": "They make your CSS Awesome",
                 "answer": "Syntactically Awesome Stylesheets"
             },
             {
-                "question": "Sass 2",
-                "hint": "Sass Hint 2",
-                "answer": "PHP Answer 2"
+                "question": "Correct syntax for SASS",
+                "hint": "Nested selectors. Take a peek",
+                "answer": "body { color: red; a { color: green }}"
             },
             {
-                "question": "Sass 3",
-                "hint": "Sass Hint 3",
-                "answer": "PHP Answer 3"
+                "question": "How do you insert a single comment in a CSS file?",
+                "hint": "double forward slash",
+                "answer": "// this is a single line comment"
             },
             {
-                "question": "Sass 4",
-                "hint": "Sass Hint 4",
-                "answer": "SassAnswer 4"
+                "question": "How do you display hyperlinks without an underline?",
+                "hint": "The visual state of hyperlinked text provides a certain decoration",
+                "answer": "An example: text-decoration: none;"
             },
             {
-                "question": "Sass 5",
-                "hint": "Sass Hint 5",
-                "answer": "SassAnswer 5"
+                "question": "Which CSS property controls the text size",
+                "hint": "think size of font, but not size of text",
+                "answer": "As an example: font-size: 1pt;"
             }
         ]
     }
